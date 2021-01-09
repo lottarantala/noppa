@@ -7,10 +7,11 @@ def noppa():
 
 if __name__ == "__main__":
     print("Tämä on noppa")
+    print("Valitse x heittääksesi noppaa tai p poistuaksesi")
     while True:
-        heitto = input("Valitse x heittääksesi nopan: ")
+        heitto = input(": ")
         heitto = heitto.lower()
         if heitto == "x":
             noppa()
         else:
-            print("Et valinnut x!")
+            print("Valitse x tai p")
